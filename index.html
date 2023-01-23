@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="icon" type="image/x-icon" href="/icons8-facebook-48.png">
+
+
+
+
+
+
+
+
+
+
+    <style>
+        body{
+            background-color: rgba(240,242,244,255);
+        }
+        .fb-login-up{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+            gap: 15%;
+            margin-top: 100px;
+        }
+        #highlight{
+            color: rgba(24,119,242,255);
+            font-size: 4rem;
+        }
+        #text{
+            font-size: 1.8rem;
+        }
+        form{
+            width: 360px;
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 10px;
+            display: grid;
+            place-items: center;
+        }
+        input{
+            width: 320px;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        #username{
+            margin-top: 20px;
+        }
+        #password{
+            margin-bottom: 2px;
+        }
+        #log-in-button{
+            width: 325px;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 1rem;
+            color: white;
+            background-color: rgba(24,119,242,255);
+        }
+        a{
+            text-decoration: none;
+            color: rgba(24,119,242,255);
+            font-size: 1rem;
+        }
+        #loginhr{
+            width: 320px;
+            border-radius: 10px;
+            color: rgba(240,242,244,255);
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #sign-up-button{
+            width: 180px;
+            height: 40px;
+            border-radius: 10px;
+            color: white;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            background-color: rgba(67,183,42,255);
+        }
+        #specialline{
+            display: grid;
+            text-align: center;
+        }
+        .fb-login-down{
+            background-color: white;
+            display: grid;
+            place-items: center;
+            margin-top: 100px;
+        }
+        .fb-login-down a{
+            color: grey;
+        }
+        #activelanguage{
+            text-decoration: underline;
+        }
+        #languages, #additionallinks a{
+            text-align: left;
+        }
+        #line{
+            width: 100%;
+        }
+        #copyright{
+            margin-bottom: 100px;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+
+    <div class="fb-login-up">
+        <div id="box1">
+            <b id="highlight">facebook</b><br>
+            <p id="text">
+                Facebook helps you connect and share<br>with the people in your life.
+            </p>
+        </div>
+        <div id="box2">
+            <form action="#" method="#">
+                <input type="text" name="username" placeholder="Email address or phone number" required id="username"><br>
+                <input type="password" name="password" placeholder="Password" required id="password"><br>
+                <button id="log-in-button" name="login">Log in</button><br>
+                <a href="#">Forgotten password?</a>
+                <hr id="loginhr">
+                <a href="#"><button id="sign-up-button" name="signup">Create new account</button></a>
+            </form>
+            <br><br>
+            <p id="specialline">Create a Page for a celebrity, brand or business.</p>
+        </div>
+    </div>
+
+    <div class="fb-login-down">
+        <div>
+            <p id="languages">
+                <a href="#" id="activelanguage">English (UK)</a>&nbsp;&nbsp;
+                <a href="#">हिन्दी</a>&nbsp;&nbsp;
+                <a href="#">ਪੰਜਾਬੀ</a>&nbsp;&nbsp;
+                <a href="#">اردو</a>&nbsp;&nbsp;
+                <a href="#">ગુજરાતી</a>&nbsp;&nbsp;
+                <a href="#">বাংলা</a>&nbsp;&nbsp;
+                <a href="#">தமிழ்</a>&nbsp;&nbsp;
+                <a href="#">తెలుగు</a>&nbsp;&nbsp;
+                <a href="#">മലയാളം</a>&nbsp;&nbsp;
+                <a href="#">ಕನ್ನಡ</a>&nbsp;&nbsp;
+                <a href="#">Español</a>&nbsp;&nbsp;
+            </p>
+            <hr id="line">
+            <p id="additional-links">
+                <a href="#">Sign up</a>&nbsp;&nbsp;
+                <a href="#">Log in</a>&nbsp;&nbsp;
+                <a href="#">Messenger</a>&nbsp;&nbsp;
+                <a href="#">Facebook Lite</a>&nbsp;&nbsp;
+                <a href="#">Watch</a>&nbsp;&nbsp;
+                <a href="#">Places</a>&nbsp;&nbsp;
+                <a href="#">Games</a>&nbsp;&nbsp;
+                <a href="#">Marketplace</a>&nbsp;&nbsp;
+                <a href="#">Meta Play</a>&nbsp;&nbsp;
+                <a href="#">Oculus</a>&nbsp;&nbsp;
+            </p>
+            <p id="copyright">Meta &copy; 2023</p>
+        </div>
+    </div>
+</body>
+</html>
